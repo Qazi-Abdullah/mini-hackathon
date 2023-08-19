@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogger</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+
+<body>
+    <nav>
+        <div class="nav-content">
+            <p class="web-name">Personal Blogging Website</p>
+            <div class="right-stuff">
+                <p class="nav-text"></p>
+                <h2  class="h2">Abdullah</h2>
+                <button class="nav-btn" id="logout-button">Logout</button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="dashboard">
+        <p class="dash-text">Dashboard</p>
+    </div>
+
+    <div class="blog-main">
+
+        <div class="blog-div">
+            <div class="input-div">
+                <input class="input-style" id="title-input" placeholder="title of your blog" required minlength="5"
+                    maxlength="50" type="text">
+            </div>
+            <div class="textarea">
+                <textarea id="textarea-input"></textarea>
+            </div>
+            <p id="charCount">Characters remaining: 3000</p>
+            <div class="button-div">
+                <button id="publish-blog" class="pub-btn">Publish blog</button>
+            </div>
+        </div>
+    </div>
+    
+
+    <ul id="list">
+
+    </ul>
+    <script src="https://cdn.jsdelivr.net/npm/moment@2.29.4/moment.min.js"></script>
+    <script type="module" src="home.js"></script>
+</body>
+
+</html>

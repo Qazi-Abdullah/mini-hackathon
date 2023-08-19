@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'poppins', sans-serif;
+} 
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f7faed;
+    column-gap: 30px;
+
+}
+.main{
+    /* position: absolute; */
+    /* max-width: 430px; */
+    /* width: 100px; */
+    padding: 30px;
+    border-radius: 6px;
+    background-color: #fff;
+}
+/* .main{
+    opacity: 0;
+    pointer-events: none;
+
+} */
+h1{
+    margin: 15%;
+    padding: 0px;
+    font-size: 35px;
+    margin-bottom: 6%;
+}
+.firstname{
+    margin: 10px;
+    padding: 8px;
+    width: 200px;
+    /* margin-bottom: 1.4em; */
+
+        
+}
+.lastname{
+    margin: 10px;
+    padding: 8px;
+    width: 200px;
+    /* margin-bottom: 1.4em; */
+          
+}
+.Email{
+    margin: 10px;
+    padding: 8px;
+    width: 200px;
+    /* margin-bottom: 1.4em; */
+
+        
+}
+.Password{
+    margin: 10px;
+    padding: 8px;
+    width: 200px;
+    /* margin-bottom: 1.4em; */
+          
+}
+.confirm{
+    margin: 10px;
+    padding: 8px;
+    width: 200px;
+    margin-bottom: 1.4em;
+}
+
+.signup{
+    padding: 5px;
+    font-size: 15px;
+    width: 70px;
+    border-radius: 15px;
+    background-color: #7b47db;
+    margin-left: 70px;
+}
+input{
+    padding: 12px;
+    width: 200px;
+
+}
+.paragraph{
+    padding: 2em;
+    margin-top: 3em;
+    display: flex;
+    padding: 2px;
+}
+.login{
+    background-color: rgb(121, 121, 255);
+}
